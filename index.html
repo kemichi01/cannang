@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let weight = +prompt('nhap can nang');
+        let height = +prompt('nhap chieu cao');
+        let bmi = weight / (height*height);
+        if (bmi < 18)
+            document.write('underweight');
+        else if(bmi > 18&&bmi < 25)
+            document.write('normal');
+        else if(bmi >= 25&&bmi < 30)
+            document.write('overheight');
+        else
+            document.write('Obese');
+    </script>
+</head>
+<body>
+
+</body>
+</html>
